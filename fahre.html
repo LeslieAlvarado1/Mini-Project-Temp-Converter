@@ -13,7 +13,7 @@
         <header>
             <nav>
                 <ul>
-                    <a href="/">Home</a>
+                    <a href="/home.html">Home</a>
                 </ul>
                 <ul>
                     <a href="/fahre.html">Fahrenheit to Celsius</a>
@@ -33,15 +33,12 @@
                 <h3>
                     Convert Fahrenheit into Celsius!
                 </h3>
-                <label for="mynumber">Fahrenheit Temperature:</label>
+
+                <label for="myNumber">Fahrenheit Temperature:</label>
                 <input type="text" id="myNumber">
 
-                <div class="btn-row">
-                    <button class="btn" onclick="buttonAdd()">Addition</button>
-                    <button class="btn" onclick="buttonSub()">Subtraction</button>
-                    <button class="btn" onclick="buttonMulti()">Multiplication</button>
-                    <button class="btn" onclick="buttonDiv()">Division</button>
-                </div>
+                    <button class="btn" onclick="buttonConverter()">Convert</button>
+                   
                 <p id="result"><em>Result</em></p>
                 <p id="messageError"></p>
             </section>

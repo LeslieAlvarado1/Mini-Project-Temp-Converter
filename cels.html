@@ -13,7 +13,7 @@
         <header>
             <nav>
                 <ul>
-                    <a href="/">Home</a>
+                    <a href="/home.html">Home</a>
                 </ul>
                 <ul>
                     <a href="/fahre.html">Fahrenheit to Celsius</a>
@@ -30,22 +30,18 @@
             </section>
 
             <section class="home-body">
-                <h2>
-                    Temperatures...
-                </h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus veritatis at omnis suscipit sit
-                    vitae temporibus officiis quos! Vel culpa inventore saepe repellat natus laudantium itaque modi
-                    maiores perferendis esse.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, autem suscipit soluta
-                    distinctio temporibus fugiat nulla vitae quibusdam, neque laborum explicabo doloremque amet,
-                    accusamus rem ducimus dolore eaque accusantium atque.
-                </p>
-                <button>Button</button>
-            </section>
+                <h3>
+                    Convert Fahrenheit into Celsius!
+                </h3>
 
+                <label for="myNumber">Fahrenheit Temperature:</label>
+                <input type="text" id="myNumber">
+
+                    <button class="btn" onclick="buttonConverter()">Convert</button>
+                   
+                <p id="result"><em>Result</em></p>
+                <p id="messageError"></p>
+            </section>
 
         </main>
         <footer>
